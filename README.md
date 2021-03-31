@@ -18,4 +18,4 @@ This is my first Svelte app. So feel free to give me feedback or contribute :)
 
 ## Credits
 
-Svelte app made by @nclskfm. Questions made by @lydiahallie.
+Svelte app made by [@nclskfm](https://github.com/nclskfm/). Questions made by [@lydiahallie](https://github.com/lydiahallie/).
