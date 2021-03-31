@@ -35,3 +35,4 @@ _output
 /site/scripts/community
 /site/src/routes/_contributors.js
 /site/src/routes/_components/WhosUsingSvelte.*
+.vercel
