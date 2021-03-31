@@ -28,7 +28,8 @@
     <p>
       The questions have been created by <a
         href="https://github.com/lydiahallie/javascript-questions/"
-        target="_blank">Lydia Hallie</a
+        target="_blank"
+        rel="noopener">Lydia Hallie</a
       >. Thanks for sharing!
     </p>
     <p>
@@ -45,8 +46,10 @@
     {#if cookiesAllowed}
       <p>* Your current score will also be cleared! ⚠️</p>
     {/if}
-    <a href="https://github.com/nclskfm/javascript-quiz" target="_blank"
-      >source code</a
+    <a
+      href="https://github.com/nclskfm/javascript-quiz"
+      target="_blank"
+      rel="noopener">source code</a
     >
   </div>
 </div>

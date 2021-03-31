@@ -11,26 +11,35 @@
 <footer>
   <div class="container">
     <span
-      ><a href="https://github.com/nclskfm" target="_blank">by nclskfm</a></span
+      ><a href="https://github.com/nclskfm" target="_blank" rel="noopener"
+        >by nclskfm</a
+      ></span
     >
     <span
-      ><a href="https://github.com/nclskfm/javascript-quiz" target="_blank"
-        >source code</a
+      ><a
+        href="https://github.com/nclskfm/javascript-quiz"
+        target="_blank"
+        rel="noopener">source code</a
       ></span
     >
     <span
       ><a
         href="https://github.com/lydiahallie/javascript-questions/"
-        target="_blank">questions by lydiahallie</a
+        target="_blank"
+        rel="noopener">questions by lydiahallie</a
       >
     </span>
     <span
-      ><a href="https://svelte.dev/" target="_blank">made with svelte</a></span
+      ><a href="https://svelte.dev/" target="_blank" rel="noopener"
+        >made with svelte</a
+      ></span
     >
     <span><a href="/#" on:click={openSettings}>settings</a></span>
     <span
-      ><a href="https://www.niclaskaufmann.de/impressum.html" target="_blank"
-        >impressum</a
+      ><a
+        href="https://www.niclaskaufmann.de/impressum.html"
+        target="_blank"
+        rel="noopener">impressum</a
       ></span
     >
   </div>
