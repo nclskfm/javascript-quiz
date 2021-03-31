@@ -1,5 +1,6 @@
 {
-  "name": "svelte-app",
+  "name": "javascript-quiz",
+  "author": "nclskfm",
   "version": "1.0.0",
   "private": true,
   "scripts": {
