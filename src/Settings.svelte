@@ -105,17 +105,13 @@
   }
 
   .allow {
-    background-color: rgba(0, 100, 0, 0.75);
+    background-color: rgba(0, 90, 0, 0.75);
     border: rgb(0, 100, 0) 2px solid;
     color: white;
   }
 
   .deny {
-    /* background-color: rgba(100, 0, 0, 0.75);
-    border: rgb(100, 0, 0) 1px solid;
-    color: white; */
     background-color: white;
     border: rgb(100, 0, 0) 2px solid;
-    /* color: white; */
   }
 </style>
