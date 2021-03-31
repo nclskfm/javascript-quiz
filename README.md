@@ -20,6 +20,8 @@ This is my first Svelte app. So feel free to give me feedback or contribute :)
 
 Svelte app made by [@nclskfm](https://github.com/nclskfm/). Questions made by [@lydiahallie](https://github.com/lydiahallie/).
 
+---
+
 ![lighthouse score 100](lighthouse.gif)
 
 🥳
