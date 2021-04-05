@@ -7,17 +7,20 @@
   import hljs from 'highlight.js/lib/core';
   import javascript from 'highlight.js/lib/languages/javascript';
 
-  hljs.registerLanguage('javascript', javascript);
-
   getQuestions();
 
   let page;
   let questionsPerPage = window.innerWidth > 600 ? 10 : 5;
   let pageShown = window.innerWidth > 600 ? 7 : 4;
 
+  hljs.registerLanguage('javascript', javascript);
   afterUpdate(() => {
     hljs.highlightAll();
   });
+
+  // Whenever `page` changes, it scrolls up. This comma notation may look strange, but it was recommended by the creator of Svelte:
+  //  https://twitter.com/liyuanqiu/status/1149235193296773122
+  $: page, window.scrollTo(0, 0);
 </script>
 
 <div class="container-wrapper">
