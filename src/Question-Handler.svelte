@@ -29,7 +29,7 @@
     />
   </div>
   <div class="container">
-    {#each $questions.slice(page * questionsPerPage, (page + 1) * questionsPerPage) as question}
+    {#each $questions.slice(page * questionsPerPage, (page + 1) * questionsPerPage) as question (question.id)}
       <div class="card-wrapper">
         <QuestionCard {question} on:answerClicked={handleAnswer} />
       </div>
