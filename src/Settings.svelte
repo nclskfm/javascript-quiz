@@ -39,12 +39,12 @@
     <p>And now have fun! 🚀</p>
     <div class="button-wrapper">
       <button
-        class="deny plausible-event-name=Cookies+Button+Click"
+        class="deny plausible-event-name=Deny+Cookies"
         on:click={() => closeSettings()}
         >deny{#if cookiesAllowed}*{/if}</button
       >
       <button
-        class="allow plausible-event-name=Cookies+Button+Click"
+        class="allow plausible-event-name=Allow+Cookies"
         on:click={() => closeSettings(true)}>allow</button
       >
     </div>
