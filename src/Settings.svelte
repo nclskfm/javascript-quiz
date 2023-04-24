@@ -1,6 +1,6 @@
 <script>
   import { createEventDispatcher } from 'svelte';
-  import { setCookie, getCookie, removeAllCookies } from './scripts/cookies.js';
+  import { getCookie, removeAllCookies, setCookie } from './scripts/cookies.js';
 
   const dispatch = createEventDispatcher();
 
@@ -38,10 +38,15 @@
     </p>
     <p>And now have fun! 🚀</p>
     <div class="button-wrapper">
-      <button class="deny" on:click={() => closeSettings()}
+      <button
+        class="deny plausible-event-name=Cookies+Button+Click"
+        on:click={() => closeSettings()}
         >deny{#if cookiesAllowed}*{/if}</button
       >
-      <button class="allow" on:click={() => closeSettings(true)}>allow</button>
+      <button
+        class="allow plausible-event-name=Cookies+Button+Click"
+        on:click={() => closeSettings(true)}>allow</button
+      >
     </div>
     {#if cookiesAllowed}
       <p>* Your current score will also be cleared! ⚠️</p>
