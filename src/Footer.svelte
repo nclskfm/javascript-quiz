@@ -15,6 +15,18 @@
         >by nclskfm</a
       ></span
     >
+    <span>
+      <a
+        href="https://www.buymeacoffee.com/nclskfm"
+        target="_blank"
+        rel="noopener"
+        ><img
+          src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png"
+          alt="Buy Me A Coffee"
+          height="40px"
+        /></a
+      >
+    </span>
     <span
       ><a
         href="https://github.com/nclskfm/javascript-quiz"

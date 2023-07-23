@@ -2,7 +2,9 @@
 
 A small quiz application for JavaScript questions based on [Svelte](https://svelte.dev). The [questions](https://github.com/lydiahallie/javascript-questions/) have been created by [@lydiahallie](https://github.com/lydiahallie/). Thanks for sharing! 🙏
 
-The website works completely locally. The questions come from the readme linked above and are parsed to readable objects. Optionally you can enable cookies. Then the answered questions are saved locally and you can continue playing another time. 
+The website works completely locally. The questions come from the readme linked above and are parsed to readable objects. Optionally you can enable cookies. Then the answered questions are saved locally and you can continue playing another time.
+
+<a href="https://www.buymeacoffee.com/nclskfm" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 50px !important;" ></a>
 
 ## Website
 
